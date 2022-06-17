@@ -24,6 +24,10 @@
   background-color: var(--terciary-color);
 }
 
+:target {
+  scroll-margin-top: 70px;
+}
+
 body {
   background-color: var(--secondary-color);
 }
@@ -32,6 +36,10 @@ body {
   background-color: var(--main-color);
   padding: 15px;
   text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
 }
 
 .navbar a {
