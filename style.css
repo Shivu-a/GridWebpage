@@ -159,6 +159,7 @@ header label {
   background-color: var(--main-color);
   border-radius: 10px;
   transition: ease-in-out all 250ms;
+  border: 3px solid transparent;
 }
 
 .imagenContacto:hover {
